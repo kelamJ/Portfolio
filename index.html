@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+<!-- icones css web -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Responsive Portfolio Website</title>
+</head>
+<body>
+
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav__logo">Julien</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">
+                        <i class='bx bx-home-alt nav__icon' ></i> Accueil
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">
+                        <i class='bx bx-user nav__icon' ></i> A propos
+                    </a>
+                 </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                        <i class='bx bx-file nav__icon'></i>  Compétences    
+                     </a>
+                </li>
+                <li class="nav__item">
+                     <a href="#services" class="nav__link"> 
+                        <i class='bx bxs-briefcase-alt-2 nav__icon' ></i> Projets    
+                    </a>
+                </li>
+                <li class="nav__item">
+                     <a href="#portfolio" class="nav__link">
+                        <i class='bx bxs-user-rectangle nav__icon'></i> Portfolio
+                     </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">
+                        <i class='bx bx-paper-plane nav__icon'></i> ContactezMoi
+                     </a>
+                </li>
+            </ul>
+            <i class='bx bx-window-close nav__close' id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-category'></i>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="main">
+    <!-- ACCUEIL -->
+    <section class="home section" id="home">
+        <div class="home__container container grid">
+            <div class="home__content grid">
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/julien-malek-62837a256/" target="_blank" class="home__social-icon">
+                        <i class='bx bxl-linkedin-square' ></i>
+                    </a>
+
+                    <a href="https://dribbble.com/" target="_blank"  class="home__social-icon">
+                        <i class='bx bxl-dribbble' ></i>
+                    </a>
+
+                    <a href="https://github.com/kelamJ" target="_blank"  class="home__social-icon">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                </div>
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#FF0066" d="M47.3,-4.8C56.4,12.5,55.4,43.7,38.2,57.3C21,70.9,-12.4,67,-29.1,52C-45.8,37.1,-45.8,11.1,-38.2,-4.2C-30.6,-19.6,-15.3,-24.2,1.9,-24.8C19.1,-25.5,38.3,-22.1,47.3,-4.8Z" transform="translate(100 100)" />
+                      </svg>
+                </div>
+                <div class="home__data">
+                    <h1 class="home__title">Bonjour, je suis Julien</h1>
+                    <h3 class="home__subtitle">Développeur Frontend</h3>
+                    <p class="home__description">Débutant dans le web développement je suis en fomation avec l'AFPA pour </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer></footer>
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
