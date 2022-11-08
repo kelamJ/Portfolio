@@ -78,17 +78,256 @@
                 </div>
                 <div class="home__img">
                     <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                        <path fill="#FF0066" d="M47.3,-4.8C56.4,12.5,55.4,43.7,38.2,57.3C21,70.9,-12.4,67,-29.1,52C-45.8,37.1,-45.8,11.1,-38.2,-4.2C-30.6,-19.6,-15.3,-24.2,1.9,-24.8C19.1,-25.5,38.3,-22.1,47.3,-4.8Z" transform="translate(100 100)" />
-                      </svg>
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0" mask-type="alpha">
+                                <path fill="#A7F0BA" d="M56,-17.3C65.4,11,61.1,44.6,40.9,60.3C20.6,75.9,-15.6,73.6,-38.4,56.3C-61.1,38.9,-70.4,6.5,-61.8,-20.7C-53.2,-47.8,-26.6,-69.7,-1.7,-69.2C23.2,-68.7,46.5,-45.7,56,-17.3Z" transform="translate(100 100)" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path fill="#A7F0BA" d="M56,-17.3C65.4,11,61.1,44.6,40.9,60.3C20.6,75.9,-15.6,73.6,-38.4,56.3C-61.1,38.9,-70.4,6.5,-61.8,-20.7C-53.2,-47.8,-26.6,-69.7,-1.7,-69.2C23.2,-68.7,46.5,-45.7,56,-17.3Z" transform="translate(100 100)" />
+                                <image class="home__blob-img" x="10" y="18" xlink:href="assets/src/pdp.jpg"></image>
+                            </g>
+                        </svg> 
+            
+                    </svg>
                 </div>
                 <div class="home__data">
-                    <h1 class="home__title">Bonjour, je suis Julien</h1>
-                    <h3 class="home__subtitle">Développeur Frontend</h3>
-                    <p class="home__description">Débutant dans le web développement je suis en fomation avec l'AFPA pour </p>
+                    <h1 class="home__title">Hi, I'am Julien</h1>
+                    <h3 class="home__subtitle">Frontend developer</h3>
+                    <p class="home__description">Débutant dans le web développement je suis en fomation à l'AFPA.</p>
+                    <a href="#contact" class="button button--flex">
+                       Contact Me <i class='bx bx-paper-plane button__icon'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <i class='bx bx-mouse home__scroll-mouse' ></i>
+                    <span class="home__scroll-name">Scroll-down</span>
+                    <i class='bx bx-down-arrow-alt home__scroll-arrow' ></i>
+                </a>
+            </div>
+        </div> 
+    </section>
+<section class="about section" id="about">
+    <h2 class="section__title">About Me</h2>
+    <span class="section__subtitle">My introduction</span>
+
+    <div class="about__container container grid">
+        <img src="assets/src/img/lcxe18gybia81.webp" alt="" class="about__img">
+
+        <div class="about__data">
+            <p class="about__description">Web developer who used html, CSS, JS ... and working with unreal engine for creating lot of games !</p>
+            <div class="about__info">
+                <div>
+                    <span class="about__info-title">08+</span>
+                    <span class="about__info-name">Years<br> experience</span>
+                </div>
+                <div>
+                    <span class="about__info-title">20+</span>
+                    <span class="about__info-name">Completed <br> project</span>
+                </div>
+                <div>
+                    <span class="about__info-title">05+</span>
+                    <span class="about__info-name">Companies <br> worked</span>
+                </div>
+            </div>
+
+            <div class="about__buttons">
+                <a download="" href="assets/src/CV Formation Dev.pdf" class="button button--flex">
+                    Download CV<i class='bx bx-download button_icon'></i>
+                </a>
+            
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SKILLS -->
+<section class="skills section" id="skills">
+    <h2 class="section__title">Skills</h2>
+    <span class="section__subtitle">My technical level</span>
+    <div class="skills__container container grid">
+        <div>
+            <!-- SKILLS 1-->
+            <div class="skills__content skills__open">
+                <div class="skills__header">
+                    <i class='bx bx-bracket skills__icon'></i>
+
+                    <div>
+                       <h1 class="skills__title">Frontend developer</h1>
+                       <span class="skills__subtitle">Less than 1 years</span>
+                    </div>
+
+                    <i class='bx bxs-chevrons-down skills__arrow'></i>
+                </div>
+
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skills__number">90%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__html"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">CSS</h3>
+                            <span class="skills__number">90%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__css"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">JavaScript</h3>
+                            <span class="skills__number">70%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__js"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">GitHub</h3>
+                            <span class="skills__number">90%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__github"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SKILLS 2-->
+            <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class='bx bx-server skills__icon' ></i>
+
+                    <div>
+                       <h1 class="skills__title">Backend developer</h1>
+                       <span class="skills__subtitle">Less than 1 years</span>
+                    </div>
+
+                    <i class='bx bxs-chevrons-down skills__arrow'></i>
+                </div>
+
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">PHP</h3>
+                            <span class="skills__number">00%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__php"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Node Js</h3>
+                            <span class="skills__number">00%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__node"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Firebase</h3>
+                            <span class="skills__number">00%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__firebase"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Python</h3>
+                            <span class="skills__number">50%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__python"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+
+        <div>
+             <!-- SKILLS 3-->
+             <div class="skills__content skills__close">
+                <div class="skills__header">
+                    <i class='bx bx-book skills__icon'></i>
+
+                    <div>
+                       <h1 class="skills__title">Designer</h1>
+                       <span class="skills__subtitle">More than 3 years</span>
+                    </div>
+
+                    <i class='bx bxs-chevrons-down skills__arrow'></i>
+                </div>
+
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">AfterEffect</h3>
+                            <span class="skills__number">60%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__ae"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">UnrealEngine</h3>
+                            <span class="skills__number">50%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__unrealengine"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Photoshop</h3>
+                            <span class="skills__number">80%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__photoshop"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Cinema4D</h3>
+                            <span class="skills__number">50%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__c4d"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- QUALIFICATION -->
+
+<section class="qualification section">
+    <h2 class="section__title">Qualification</h2>
+    <span class="section__subtitle">My Personal journey</span>
+</section>
+
+
+
+
 </main>
 
 <footer></footer>

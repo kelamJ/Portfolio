@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha">
+  <path fill="#A7F0BA" d="M56,-17.3C65.4,11,61.1,44.6,40.9,60.3C20.6,75.9,-15.6,73.6,-38.4,56.3C-61.1,38.9,-70.4,6.5,-61.8,-20.7C-53.2,-47.8,-26.6,-69.7,-1.7,-69.2C23.2,-68.7,46.5,-45.7,56,-17.3Z" transform="translate(100 100)" />
+</mask>
+<g mask="url(#mask0)">
+<path fill="#A7F0BA" d="M56,-17.3C65.4,11,61.1,44.6,40.9,60.3C20.6,75.9,-15.6,73.6,-38.4,56.3C-61.1,38.9,-70.4,6.5,-61.8,-20.7C-53.2,-47.8,-26.6,-69.7,-1.7,-69.2C23.2,-68.7,46.5,-45.7,56,-17.3Z" transform="translate(100 100)" />
+<image class="home--blob-img" width="10em" xlink:href="assets/src/pdp-removebg-preview.png"></image>
+</g>
+</svg>
