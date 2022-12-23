@@ -70,3 +70,44 @@ tabs.forEach(tab =>{
         tab.classList.add('qualification__active')
     })
 })
+
+// SERVICES MODAL
+
+const modalViews = document.querySelectorAll('.services__modal');
+const modalBtns = document.querySelectorAll('.services__button');
+const modalCloses = document.querySelectorAll('.services__modal-close')
+
+let modal = function(modalClick){
+    modalViews[modalClick].classList.add('active-modal')
+}
+
+
+modalBtns.forEach((modalBtns, i) => {
+    modalBtns.addEventListener('click', () =>{
+        modal(i)
+    })
+})
+
+modalCloses.forEach((modalClose) => {
+    modalCloses.addEventListener('click', () =>{
+        modalViews.forEach((modalViews) =>{
+            modalViews.classList.remove('active-modal')
+        })
+    })
+}
+)
+
+// PORTFOLIO SWIPER
+let swiperPortfolio = new Swiper('.portfolio__container', {
+    cssMode: true,
+    loop: true,
+
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    },
+});
