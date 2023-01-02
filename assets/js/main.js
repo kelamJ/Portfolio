@@ -98,6 +98,34 @@ modalCloses.forEach((modalClose) => {
 )
 
 // PORTFOLIO SWIPER
+const boutonPre = document.querySelector(".swiper-button-prev");
+const boutonAva = document.querySelector(".swiper-button-next");
+
+boutonPre.addEventListener("click", () => {
+    if (currentIndex === 0) {
+        currentIndex = 2
+    } else {
+        currentIndex--;
+    }
+    changeImage(currentIndex);
+});
+
+boutonAva.addEventListener("click", () => {
+    if (currentIndex === 0) {
+        currentIndex = 2
+    } else {
+        currentIndex++;
+    }
+    changeImage(currentIndex);
+});
+
+function changeImage(index) {
+    images.forEach(img => 
+        img.classList.remove("showImage"));
+    images[index].classList.add("showImage");
+}
+
+
 let swiperPortfolio = new Swiper('.portfolio__container', {
     cssMode: true,
     loop: true,
