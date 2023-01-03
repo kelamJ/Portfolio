@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- SWIPER CSS -->
-<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
 <!-- BOXICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Responsive Portfolio Website</title>
 </head>
 <body>
-
+<!-- HEADER -->
 <header class="header" id="header">
     <nav class="nav container">
         <a href="#" class="nav__logo">Julien</a>
@@ -22,66 +25,68 @@
             <ul class="nav__list grid">
                 <li class="nav__item">
                     <a href="#home" class="nav__link">
-                        <i class='bx bx-home-alt nav__icon' ></i> Accueil
+                        <i class="uil uil-home nav__icon"></i> Accueil
                     </a>
                 </li>
                 <li class="nav__item">
                     <a href="#about" class="nav__link">
-                        <i class='bx bx-user nav__icon' ></i> A propos
+                        <i class="uil uil-user nav__icon"></i> A propos
                     </a>
-                 </li>
+                </li>
                 <li class="nav__item">
                     <a href="#skills" class="nav__link">
-                        <i class='bx bx-file nav__icon'></i>  Compétences    
-                     </a>
-                </li>
-                <li class="nav__item">
-                     <a href="#services" class="nav__link"> 
-                        <i class='bx bxs-briefcase-alt-2 nav__icon' ></i> Projets    
+                        <i class="uil uil-file nav__icon"></i>  Compétences    
                     </a>
                 </li>
                 <li class="nav__item">
-                     <a href="#portfolio" class="nav__link">
-                        <i class='bx bxs-user-rectangle nav__icon'></i> Portfolio
-                     </a>
+                    <a href="#services" class="nav__link"> 
+                        <i class="uil uil-briefcase-alt nav__icon"></i> Projets    
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#portfolio" class="nav__link">
+                        <i class="uil uil-user-square nav__icon"></i> Portfolio
+                    </a>
                 </li>
                 <li class="nav__item">
                     <a href="#contact" class="nav__link">
-                        <i class='bx bx-paper-plane nav__icon'></i> ContactezMoi
-                     </a>
+                        <i class="uil uil-telegram-alt nav__icon"></i> ContactezMoi
+                    </a>
                 </li>
             </ul>
-            <i class='bx bx-window-close nav__close' id="nav-close"></i>
+            <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
-        <div class="nav__btns">
+            <!-- Theme change button-->
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
             <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-category'></i>
+                <i class="uil uil-apps"></i>
             </div>
         </div>
     </nav>
 </header>
-
+<!-- MAIN -->
 <main class="main">
+
     <!-- ACCUEIL -->
     <section class="home section" id="home">
         <div class="home__container container grid">
             <div class="home__content grid">
                 <div class="home__social">
                     <a href="https://www.linkedin.com/in/julien-malek-62837a256/" target="_blank" class="home__social-icon">
-                        <i class='bx bxl-linkedin-square' ></i>
+                        <i class="uil uil-linkedin-alt"></i>
                     </a>
 
                     <a href="https://dribbble.com/" target="_blank"  class="home__social-icon">
-                        <i class='bx bxl-dribbble' ></i>
+                        <i class="uil uil-dribbble"></i>
                     </a>
 
                     <a href="https://github.com/kelamJ" target="_blank"  class="home__social-icon">
-                        <i class='bx bxl-github' ></i>
+                        <i class="uil uil-github-alt"></i>
                     </a>
                 </div>
+
                 <div class="home__img">
                     <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                             <mask id="mask0" mask-type="alpha">
                                 <path fill="#A7F0BA" d="M56,-17.3C65.4,11,61.1,44.6,40.9,60.3C20.6,75.9,-15.6,73.6,-38.4,56.3C-61.1,38.9,-70.4,6.5,-61.8,-20.7C-53.2,-47.8,-26.6,-69.7,-1.7,-69.2C23.2,-68.7,46.5,-45.7,56,-17.3Z" transform="translate(100 100)" />
                             </mask>
@@ -90,27 +95,30 @@
                                 <image class="home__blob-img" x="10" y="18" xlink:href="assets/src/pdp.jpg"></image>
                             </g>
                         </svg> 
-            
-                    </svg>
+
                 </div>
+
                 <div class="home__data">
                     <h1 class="home__title">Hi, I'am Julien</h1>
                     <h3 class="home__subtitle">Frontend developer</h3>
                     <p class="home__description">Débutant dans le web développement je suis en fomation à l'AFPA.</p>
                     <a href="#contact" class="button button--flex">
-                       Contact Me <i class='bx bx-paper-plane button__icon'></i>
+                    Contact Me <i class="uil uil-message button__icon"></i>
                     </a>
                 </div>
             </div>
             <div class="home__scroll">
-                <a href="#about" class="home__scroll-button button--flex">
-                    <i class='bx bx-mouse home__scroll-mouse' ></i>
+                <a href="#" class="home__scroll-button button--flex">
+                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
                     <span class="home__scroll-name">Scroll-down</span>
-                    <i class='bx bx-down-arrow-alt home__scroll-arrow' ></i>
+                    <i class="uil uil-arrow-down home__scroll-arrow"></i>
                 </a>
             </div>
+
         </div> 
     </section>
+
+<!-- ABOUT -->
 <section class="about section" id="about">
     <h2 class="section__title">About Me</h2>
     <span class="section__subtitle">My introduction</span>
@@ -120,6 +128,7 @@
 
         <div class="about__data">
             <p class="about__description">Web developer who used html, CSS, JS ... and working with unreal engine for creating lot of games !</p>
+            
             <div class="about__info">
                 <div>
                     <span class="about__info-title">08+</span>
@@ -639,13 +648,8 @@
 
     <div class="portfolio__container container swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-css-mode">
         <div class="swiper-wrapper">
-            <div class="images">
-                <img class="showImage" src="assets/src/img/portfolioPcImage.jpg" alt="">
-                <img src="assets/src/img/portfolioPcImage2.jpg" alt="">
-                <img src="assets/src/img/portfolioPcImage3.png" alt="">
-            </div>
         <!-- PORTFOLIO 1-->
-            <div class="portfolio__content grid swiper-slide">
+            <div class="portfolio__content swiper-slide">
                 <img src="assets/src/img/portfolioPcImage.jpg" alt="" class="portfolio__img">
 
                 <div class="portfolio__data">
@@ -653,12 +657,12 @@
                     <p class="portfolio__description">Website adaptable to al devices, with ui components and animated interaction.</p>
                     <a href="#" class="button button--flex button--small portfolio__button">
                         Demo
-                        <i class='bx bx-right-arrow-alt button__icon'></i>
+                        <i class="uil uil-arrow-right button__icon"></i>
                     </a>
                 </div>
             </div>
             <!-- PORTFOLIO 2-->
-            <div class="portfolio__content grid swiper-slide">
+            <div class="portfolio__content swiper-slide">
                 <img src="assets/src/img/portfolioPcImage2.jpg" alt="" class="portfolio__img">
 
                 <div class="portfolio__data">
@@ -666,12 +670,12 @@
                     <p class="portfolio__description">Website adaptable to al devices, with ui components and animated interaction.</p>
                     <a href="#" class="button button--flex button--small portfolio__button">
                         Demo
-                        <i class='bx bx-right-arrow-alt button__icon'></i>
+                        <i class="uil uil-arrow-right button__icon"></i>
                     </a>
                 </div>
             </div> 
             <!-- PORTFOLIO 3-->
-            <div class="portfolio__content grid swiper-slide">
+            <div class="portfolio__content swiper-slide">
                 <img src="assets/src/img/portfolioPcImage3.png" alt="" class="portfolio__img">
 
                 <div class="portfolio__data">
@@ -679,7 +683,7 @@
                     <p class="portfolio__description">Website adaptable to al devices, with ui components and animated interaction.</p>
                     <a href="#" class="button button--flex button--small portfolio__button">
                         Demo
-                        <i class='bx bx-right-arrow-alt button__icon'></i>
+                        <i class="uil uil-arrow-right button__icon"></i>
                     </a>
                 </div>
             </div>
@@ -687,11 +691,11 @@
         
         <!-- Add Arrows -->
         <div class="swiper-button-next">
-            <i class='bx bx-chevron-right swiper-portfolio-icon'></i>
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
         </div>
         
         <div class="swiper-button-prev">
-            <i class='bx bx-chevron-left swiper-portfolio-icon' ></i>
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
         </div>
         
         <!-- Add Pagination -->
@@ -700,7 +704,7 @@
 </section>
 </main>
 <!-- SWIPER JS -->
-<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 <!-- MAIN JS -->
 <script src="assets/js/main.js"></script>
 </body>
